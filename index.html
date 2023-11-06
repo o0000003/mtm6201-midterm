@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mid-Term Assignment</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+
+<body>
+
+    <header role="banner">
+         <!-- this logo link to the main page -->
+        <img class="logo" src="images/logo.png" alt="logo">
+
+        <nav role="navigation" class="mobile-nav">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <nav role="navigation" class="sidenav">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main role="main">
+
+        <div class="content-wrapper">
+  
+            <picture>
+                <source srcset="
+                images/mobile-img.webp 533w" media="(max-width:759px)" />
+
+                <source srcset="
+                      images/main-img.webp 800w" media="(min-width: 760px)" />
+
+                      <img class="single" src="images/main-img.webp" alt="cake-pop">
+            </picture>
+            
+            <h1 role="heading"><span class="anim">This CAKE - POP know better </span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+            </p>
+            <a href="#about" class="skip">Learn More</a>
+
+        </div>
+        <div id="about">
+            <h2>About Us</h2>
+
+            <div class="content">
+                <picture>
+                    <source srcset="
+                    images/how-to-make-cake-pops-800_x_800.jpeg 800w" media="(max-width:759px)" />
+
+                    <source srcset="
+                          images/how-to-make-cake-pops.jpeg 1200w" media="(min-width: 760px)" />
+
+                    <img class="three-pops" src="images/how-to-make-cake-pops.jpeg" alt="about-img">
+                </picture>
+
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <div class="top-button"><a href="#"><span class="material-icons-outlined">
+                expand_less
+            </span></a></div>
+
+    <footer role="contentinfo" class="bg-purple">
+        <small>&copy; Copyright The Butter, 2023</small>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body>
+    <header role="banner">
+      <!-- this logo link to the main page -->
+     <picture> 
+      <source srcset="
+      images/logo-800_x_800.png 1x,
+      images/logo.png 2x"
+      
+      media="(max-width:760px)">
+      
+      <a href="index.html">  <img class="logo"src="images/logo.png" alt="logo"></a></picture>
+
+      <nav role="navigation" class="mobile-nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    
+        <nav role="navigation" class="sidenav">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main role="main">  <div class="contact-wrapper">
+        
+        <h2>The Owner</h2>
+        <div class="boss">
+        
+          <picture>
+            <source 
+            srcset="
+            images/owner-img-360_x_240.jpeg 360w" media="(max-width:759px)"/>
+  
+            <source
+                srcset="
+                  images/owner-img.jpeg  540w" media="(min-width: 760px)"/>
+            <img class="owner-img" src="images/owner-img-default.jpeg" alt="owner">
+          </picture>
+        
+
+        <table itemscope itemtype="https://schema.org/Person">
+           
+            <tr>
+              <td>Name</td>
+              <td itemprop="name">Emilly Smith</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td itemprop="email">emilly23@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td itemprop="telephone">+1(613)776-8905</td>
+              </tr>
+              <tr>
+                <td>Address</td>
+                <td address itemscope itemtype="https://schema.org/PostalAddress">
+                  <span itemprop="streetAddress">151B Second Ave, </span>  
+                  <span itemprop="addressLocality"> Ottawa,</span> 
+                  <span itemprop="postalCode"> ON K1S 2h6</span>
+                 </td>
+              </tr>
+          </table>
+          
+       </div>
+        <h2>Contact Us</h2>
+        <div class="container">
+            <form action="index.html">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+          </div>
+
+
+    </main>
+    <div aria-label="back-to-top" class="top-button"><a href="#"><span class="material-icons-outlined">
+      expand_less
+      </span></a></div>
+    
+    <footer role="contentinfo" class="bg-purple">
+        <small>&copy; Copyright The Butter, 2023</small>
+    </footer>
+    
+</body>
+</html>
