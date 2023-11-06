@@ -11,14 +11,7 @@
 <body>
     <header role="banner">
       <!-- this logo link to the main page -->
-     <picture> 
-      <source srcset="
-      images/logo-800_x_800.png 1x,
-      images/logo.png 2x"
-      
-      media="(max-width:760px)">
-      
-      <a href="index.html">  <img class="logo"src="images/logo.png" alt="logo"></a></picture>
+      <a href="index.html">  <img class="logo" src="images/logo.png" alt="logo"></a>
 
       <nav role="navigation" class="mobile-nav">
         <a href="index.html">Home</a>
@@ -40,12 +33,10 @@
         
           <picture>
             <source 
-            srcset="
-            images/owner-img-360_x_240.jpeg 360w" media="(max-width:759px)"/>
+            srcset="images/owner-img-360_x_240.jpeg " media="(max-width:759px)">
   
             <source
-                srcset="
-                  images/owner-img.jpeg  540w" media="(min-width: 760px)"/>
+                srcset="images/owner-img.jpeg " media="(min-width: 760px)">
             <img class="owner-img" src="images/owner-img-default.jpeg" alt="owner">
           </picture>
         
@@ -66,7 +57,7 @@
               </tr>
               <tr>
                 <td>Address</td>
-                <td address itemscope itemtype="https://schema.org/PostalAddress">
+                <td itemscope itemtype="https://schema.org/PostalAddress">
                   <span itemprop="streetAddress">151B Second Ave, </span>  
                   <span itemprop="addressLocality"> Ottawa,</span> 
                   <span itemprop="postalCode"> ON K1S 2h6</span>

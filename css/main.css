@@ -171,6 +171,10 @@ img {
 
 }
 
+.content p{
+    margin-top: 2rem;
+}
+
 .logo {
     max-width: 150px;
 
